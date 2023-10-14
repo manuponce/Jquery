@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <!-- Define el icono que se mostrará en la pestaña del navegador -->
+    <link rel="shortcut icon" type="images/x-icon" href="images/Logo.png" />
+
+    <!-- Configura la codificación de caracteres a UTF-8 -->
+    <meta charset="UTF-8" />
+
+    <!-- Especifica la compatibilidad de Internet Explorer y el motor de renderizado -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Establece la escala inicial para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Define el título de la página -->
+    <title>Galería de jQuery</title>
+
+    <!-- Proporciona una descripción de la página para motores de búsqueda -->
+    <meta name="description"
+        content="Circular Navigation Styles - Building a Circular Navigation with CSS Transforms | Codrops " />
+
+    <!-- Agrega palabras clave relevantes para motores de búsqueda -->
+    <meta name="keywords" content="css transforms, circular navigation, round navigation, circular menu, tutorial" />
+
+    <!-- Especifica el autor de la página -->
+    <meta name="author" content="Sara Soueidan for Codrops" />
+
+    <!-- Enlaza la hoja de estilos principal del sitio -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Enlaza una hoja de estilos adicional de demostración -->
+    <link rel="stylesheet" type="text/css" href="css/vendor/demo.css" />
+
+    <!-- Incluye el archivo JavaScript de Modernizr para la detección de características del navegador -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <!-- Incluye la biblioteca jQuery para el manejo de JavaScript en la página -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <!-- Incluye un archivo JavaScript que proporciona funcionalidad específica para demos -->
+    <script src="js/jquerydemos.js"></script>
+
+    <!-- Incluye un archivo JavaScript para manejar eventos de botones -->
+    <script src="js/buttons.js"></script>
+</head>
+<body>
+    <!-- Un div con una clase 'titulo' y un encabezado h1 -->
+    <div class="titulo">
+        <h1>USOS DEL MÉTODO ANIMATE</h1>
+    </div>
+
+    <!-- Un div con un id 'mainmenu' -->
+    <div id="mainmenu">
+        <!-- Un div con la clase 'texto' y dos encabezados h2 y h4 -->
+        <div class="texto">
+            <h2 id="titulosub">Método animate</h2>
+            <h4 id="textosub">El método .animate() en jQuery es una función poderosa que te permite crear animaciones personalizadas en elementos HTML, como imágenes, divs, texto, etc. La función te permite controlar y animar una variedad de propiedades CSS, como ancho, altura, opacidad, posición y más.</h4>
+        </div>
+
+        <!-- Un div con la clase 'container' que contiene dos imágenes -->
+        <div class="container">
+            <img id="ImagenEjemplo" src="./images/Cuatro.jpg" alt="Cool Logo">
+            <img id="Imagenderemplazo" src="./images/imagen-de-reemplazo.jpg" alt="Cool Logo">
+        </div>
+
+        <!-- Un div con la clase 'navbar' y una lista no ordenada con dos elementos de lista -->
+        <div class="navbar">
+            <ul>
+                <li><a id="animate">Animate</a></li>
+                <li><a id="normal">Normal</a></li>
+            </ul>
+        </div>
+
+        <!-- Un botón con la clase 'cn-button' y un id 'cn-button' -->
+        <button class="cn-button" id="cn-button">+</button>
+
+        <!-- Un div con la clase 'cn-wrapper' y una lista no ordenada con varios elementos de lista -->
+        <div class="cn-wrapper" id="cn-wrapper">
+            <ul>
+                <li><a href="./index.html"><img src="./images/icons/home.png" alt=""></a></li>
+                <li><a href="./uno.html"><img src="./images/icons/icon 1.png" alt=""></a></li>
+                <li><a href="./dos.html"><img src="./images/icons/icon 2.png" alt=""></a></li>
+                <li><a href="./tres.html"><img src="./images/icons/icon 3.png" alt=""></a></li>
+                <li><a href="./cuatro.html"><img src="./images/icons/icon 4.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div id="cn-overlay" class="cn-overlay"></div> <!-- Elemento con un id y una clase -->
+        <!-- Fin de la estructura de navegación -->
+    </div>
+
+    <!-- Inclusión de varios archivos JavaScript al final del cuerpo de la página -->
+    <script src="js/polyfills.js"></script>
+    <script src="js/demo1.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
